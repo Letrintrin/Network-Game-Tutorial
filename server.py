@@ -16,7 +16,7 @@ except socket.error as e:
     print(str(e))
 
 s.listen(2)
-print("Waiting for a connection")
+print(f"Waiting for a connection (ip : { server_ip })")
 
 currentId = "0"
 pos = ["0:50,50", "1:100,100"]
